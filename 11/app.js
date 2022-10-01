@@ -5,6 +5,7 @@ const inp1 = document.querySelector(".inp-1")
 const inp2 = document.querySelector(".inp-2")
 
 btn.addEventListener("click", () => {
+    let middleValue = inp1.value;
     inp1.value = inp2.value
-    inp2.value = inp1.value
+    inp2.value = middleValue
 })
