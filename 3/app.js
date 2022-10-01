@@ -17,7 +17,7 @@ btn.addEventListener("click", () => {
             input.style = "border: 1px solid black"
             alert(input.value)
             input.value = " "
-        } 
+        }
     } catch (error) {
         alert(error.message)
         input.value = " "
