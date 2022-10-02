@@ -5,8 +5,7 @@
 const btn = document.querySelector(".btn")
 
 function check(value) {
-    if (value <= 0) throw new Error("incorrect input")
-    if (!isNaN(value)) throw new Error("incorrect input") //?
+    if (value.value <= 0) throw new Error("incorrect input")
     return true
 }
 
