@@ -4,7 +4,7 @@
 
 const wrapper = document.querySelector(".img")
 
-wrapper.addEventListener("mouseover", ()=>{
-    image.src = "./assets/0_ibc53UU407xQTevE.jpg"
-    wrapper.appendChild(image)
+wrapper.addEventListener("mouseover", () => {
+    wrapper.innerHTML.style = "background-image: background-image: url(./assets/0_ibc53UU407xQTevE.jpg), width: 100px, height: 100px"
+    // wrapper.appendChild(image)
 })
