@@ -4,7 +4,7 @@
 
 const wrapper = document.querySelector(".wrapper")
 
-wrapper.addEventListener("cрфтпу", function (event){
+wrapper.addEventListener("click", function (event){
     alert(event.target.value)
     event.target.value =""
 })
